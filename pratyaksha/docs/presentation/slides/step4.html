@@ -1,0 +1,13 @@
+<section id="step4" class="foot">
+<p class="eyebrow">Steps 4–5 · Error analysis and fine-tuning</p>
+<h2>Training on four months of history fixed the habits.</h2>
+<div class="grid3 mt">
+<div class="card rise" style="--i:0"><p class="mid blue" style="font-size:56px">63.8% → 93.8%</p><p class="cap">right answers, fine-tuned 0.8B model. 99% of the best possible.</p></div>
+<div class="card rise" style="--i:1"><p class="mid blue" style="font-size:56px">26% → 82%</p><p class="cap">lines handled alone by the 2B model, still with zero wrong automatic bookings.</p></div>
+<div class="card rise" style="--i:2"><p class="mid orange" style="font-size:56px">5/5 → 0/5</p><p class="cap">fraud-style e-mails sent to a person after full fine-tuning. Training erased a safety habit.</p></div>
+</div>
+<div class="spacer"></div>
+<p class="cap">After training, size stopped mattering: 0.8B matched 2B. LoRA trains 1.25% of the model in about 54 minutes on a T4, once.</p>
+<p class="source">Practice month (dev), clean. 1,270 past lines as teaching material; 102 had no right option and were taught to answer “none of these”.</p>
+<aside>Error analysis first: the 2B model was too careful, the 0.8B model picked wrong options. Both are habits training can fix, and it did. The warning on the right is why the next step exists.</aside>
+</section>

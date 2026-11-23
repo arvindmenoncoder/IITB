@@ -1,0 +1,56 @@
+{
+  "run_id": "20261122-171202_R1_Qwen3.5-2B_dev_stress",
+  "system": "R1_Qwen3.5-2B",
+  "system_config": {
+    "rung": "R1",
+    "backend": "hf",
+    "model": "Qwen/Qwen3.5-2B",
+    "batch": 8,
+    "k": 5,
+    "dense": "none",
+    "max_invoices": 25
+  },
+  "split": "dev",
+  "condition": "stress",
+  "limit": null,
+  "cost_mode": "gpu",
+  "cost_assumptions": {
+    "owned_watts": 35.0,
+    "inr_per_kwh": 8.0,
+    "hardware_inr": 240000.0,
+    "hardware_life_hours": 6000,
+    "gpu_inr_per_hour": 30.0,
+    "api_usd_in_per_m": 0.75,
+    "api_usd_out_per_m": 3.75,
+    "usd_inr": 88.0
+  },
+  "world_meta": {
+    "seed": 7,
+    "start": "2026-04-01",
+    "end": "2026-09-28",
+    "opening_balance": 2500000.0,
+    "closing_balance": 174622948.18,
+    "company": "Wide World Importers India Pvt Ltd",
+    "company_state": "29",
+    "categories": [
+      "full_payment",
+      "clubbed_payment",
+      "tds_deduction",
+      "short_payment",
+      "duplicate_credit",
+      "unknown_party",
+      "bank_charges",
+      "interest_credit",
+      "supplier_payment"
+    ],
+    "counts": {
+      "customers": 60,
+      "suppliers": 8,
+      "invoices": 1361,
+      "bank_entries": 997,
+      "remittances": 501
+    }
+  },
+  "machine": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "python": "3.13.16"
+}

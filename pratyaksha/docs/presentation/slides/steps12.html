@@ -1,0 +1,13 @@
+<section id="steps12" class="foot">
+<p class="eyebrow">Steps 1–2 · Rules, then a model alone</p>
+<h2>A model on its own was confidently wrong.</h2>
+<div class="grid3 mt">
+<div class="card rise" style="--i:0"><p class="big blue">80.8%</p><p class="cap">right with plain rules and no AI, with zero wrong automatic bookings. A high floor.</p></div>
+<div class="card rise" style="--i:1"><p class="big orange">100%</p><p class="cap">of the lines the model booked alone were wrong. It booked 67.5% of lines without asking anyone.</p></div>
+<div class="card rise" style="--i:2"><p class="big orange">0%</p><p class="cap">right on payments that need arithmetic (two bills, TDS, short) for the small model, even with search.</p></div>
+</div>
+<div class="spacer"></div>
+<p class="cap"><b style="color:var(--ink)">Lesson:</b> never trust a model’s own “I’m sure”, and never ask a small model to add or subtract.</p>
+<p class="source">Practice month (dev), clean narrations. Rules: 59.9% on messy lines. Search alone found the right customer 90% of the time.</p>
+<aside>The rules baseline is not a strawman: 81% with no automatic mistakes. The model alone guessed with full confidence. And retrieval was not enough: the 2B model scored 45% but 0% on anything that needs arithmetic.</aside>
+</section>

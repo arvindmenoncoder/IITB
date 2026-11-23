@@ -1,0 +1,63 @@
+{
+  "run_id": "20261122-170358_R3_control_first_option_dev_clean",
+  "system": "R3_control_first_option",
+  "system_config": {
+    "rung": "R3-control",
+    "backend": "fake",
+    "model": "first-option",
+    "batch": 8,
+    "k": 10,
+    "dense": "none",
+    "max_invoices": 25,
+    "keep": 3,
+    "reranker": "BAAI/bge-reranker-v2-m3",
+    "emails": true,
+    "duplicates": true,
+    "pool": 12,
+    "max_options": 8,
+    "note": "no LLM: picks M1, else U"
+  },
+  "split": "dev",
+  "condition": "clean",
+  "limit": null,
+  "cost_mode": "gpu",
+  "cost_assumptions": {
+    "owned_watts": 35.0,
+    "inr_per_kwh": 8.0,
+    "hardware_inr": 240000.0,
+    "hardware_life_hours": 6000,
+    "gpu_inr_per_hour": 30.0,
+    "api_usd_in_per_m": 0.75,
+    "api_usd_out_per_m": 3.75,
+    "usd_inr": 88.0
+  },
+  "world_meta": {
+    "seed": 7,
+    "start": "2026-04-01",
+    "end": "2026-09-28",
+    "opening_balance": 2500000.0,
+    "closing_balance": 174622948.18,
+    "company": "Wide World Importers India Pvt Ltd",
+    "company_state": "29",
+    "categories": [
+      "full_payment",
+      "clubbed_payment",
+      "tds_deduction",
+      "short_payment",
+      "duplicate_credit",
+      "unknown_party",
+      "bank_charges",
+      "interest_credit",
+      "supplier_payment"
+    ],
+    "counts": {
+      "customers": 60,
+      "suppliers": 8,
+      "invoices": 1361,
+      "bank_entries": 997,
+      "remittances": 501
+    }
+  },
+  "machine": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "python": "3.13.16"
+}

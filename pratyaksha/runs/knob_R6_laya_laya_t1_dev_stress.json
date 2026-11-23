@@ -1,0 +1,86 @@
+[
+ {
+  "threshold": 0.0,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ },
+ {
+  "threshold": 0.5,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ },
+ {
+  "threshold": 0.7,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ },
+ {
+  "threshold": 0.8,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ },
+ {
+  "threshold": 0.9,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ },
+ {
+  "threshold": 0.95,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ },
+ {
+  "threshold": 0.97,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ },
+ {
+  "threshold": 0.98,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ },
+ {
+  "threshold": 0.99,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ },
+ {
+  "threshold": 0.995,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ },
+ {
+  "threshold": 0.999,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ },
+ {
+  "threshold": 0.9999,
+  "auto_rate": 0.7627118644067796,
+  "auto_error_rate": 0.0,
+  "cash_gap_inr": 0,
+  "passes": true
+ }
+]

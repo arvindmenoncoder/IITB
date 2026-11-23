@@ -1,0 +1,85 @@
+{
+  "n": 177,
+  "accuracy": 0.4067796610169492,
+  "auto_rate": 0.807909604519774,
+  "auto_error_rate": 0.5034965034965035,
+  "unexplained_total": 13,
+  "unexplained_surfaced": 0.5384615384615384,
+  "unexplained_silently_matched": 6,
+  "bank_change_total": 5,
+  "bank_change_to_human": 0.0,
+  "cash_gap_inr": 14372046.68,
+  "latency_p50_s": 1.9497665591249813,
+  "latency_p95_s": 2.057166138700013,
+  "inr_per_1000_operating": 16.013371432203353,
+  "inr_per_1000_amortisation": 0.0,
+  "tokens_in_per_task": 1906.5706214689264,
+  "tokens_out_per_task": 88.63276836158192,
+  "egress_bytes_total": 0,
+  "restricted_leaks": 0,
+  "party_recall": 0.8830409356725146,
+  "parse_errors": 21,
+  "option_recall": null,
+  "by_category": {
+    "bank_charges": {
+      "correct": 0,
+      "n": 1,
+      "acc": 0.0
+    },
+    "clubbed_payment": {
+      "correct": 0,
+      "n": 24,
+      "acc": 0.0
+    },
+    "duplicate_credit": {
+      "correct": 0,
+      "n": 4,
+      "acc": 0.0
+    },
+    "full_payment": {
+      "correct": 68,
+      "n": 108,
+      "acc": 0.6296296296296297
+    },
+    "interest_credit": {
+      "correct": 0,
+      "n": 1,
+      "acc": 0.0
+    },
+    "short_payment": {
+      "correct": 0,
+      "n": 10,
+      "acc": 0.0
+    },
+    "supplier_payment": {
+      "correct": 3,
+      "n": 4,
+      "acc": 0.75
+    },
+    "tds_deduction": {
+      "correct": 0,
+      "n": 21,
+      "acc": 0.0
+    },
+    "unknown_party": {
+      "correct": 1,
+      "n": 4,
+      "acc": 0.25
+    }
+  },
+  "errors": {
+    "wrong_invoices": 37,
+    "wrong_party": 23,
+    "system_error": 20,
+    "wrong_category": 15,
+    "ranked_too_low": 10
+  },
+  "acceptance": {
+    "auto_error_ok": false,
+    "cash_ok": false,
+    "unexplained_ok": false,
+    "bank_change_ok": false,
+    "useful_ok": true,
+    "passes": false
+  }
+}

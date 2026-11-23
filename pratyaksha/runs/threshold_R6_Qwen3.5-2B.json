@@ -1,0 +1,6 @@
+{
+ "model": "R6_Qwen3.5-2B",
+ "chosen_on": "dev",
+ "threshold": 0.0,
+ "rule": "lowest threshold that passes the business bar on every condition"
+}

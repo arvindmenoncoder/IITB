@@ -1,0 +1,73 @@
+{
+ "v": 5,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-23T18:40:33Z"
+ },
+ "lists": "css",
+ "format": {
+  "v": 1,
+  "shared": [
+   "project/deck.css"
+  ]
+ },
+ "title": "PRATYAKSHA — Final Presentation",
+ "cover": "cover",
+ "order": [
+  "cover",
+  "answer",
+  "problem",
+  "testbed",
+  "bar",
+  "ladder",
+  "steps12",
+  "step3",
+  "step4",
+  "gate",
+  "exam",
+  "real",
+  "mac",
+  "failures",
+  "worked",
+  "msme",
+  "limits",
+  "close"
+ ],
+ "sections": {
+  "s1": {
+   "description": "The question and the answer",
+   "start": "cover"
+  },
+  "s2": {
+   "description": "Problem, test bed, rules and method",
+   "start": "problem"
+  },
+  "s3": {
+   "description": "What each step bought",
+   "start": "steps12"
+  },
+  "s4": {
+   "description": "Final exam, significance and the owned machine",
+   "start": "exam"
+  },
+  "s5": {
+   "description": "Lessons, the MSME playbook and limits",
+   "start": "failures"
+  },
+  "s6": {
+   "description": "Close and live demo",
+   "start": "close"
+  }
+ },
+ "faces": {
+  "inter": {
+   "family": "Inter",
+   "href": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+  },
+  "jetbrains-mono": {
+   "family": "JetBrains Mono",
+   "href": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap"
+  }
+ },
+ "designSystems": []
+}

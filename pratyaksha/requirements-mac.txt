@@ -1,0 +1,14 @@
+# Everything needed to run the tests, the analysis scripts and the demo (any OS).
+# Colab notebooks install their own GPU extras (bitsandbytes) in their first cell.
+numpy>=1.26
+pandas>=2.0
+rank-bm25>=0.2.2
+pytest>=8.0
+torch>=2.5
+torchvision        # Qwen3.5 loads an image processor even for text-only use
+pillow
+transformers>=4.57
+accelerate
+sentence-transformers
+peft
+laya

@@ -1,0 +1,22 @@
+<section id="gate" class="alt">
+<p class="eyebrow">Step 5 · Safety in code</p>
+<h2>Safety is a rule in code, not a habit the model learns.</h2>
+<div class="flow mt">
+<div class="card" style="width:360px"><p class="small">The model says</p><h3 style="margin-top:10px">M1, over 99.9% sure</h3></div>
+<svg class="arrow" viewBox="0 0 96 48" width="96" height="48" aria-label="then"><path d="M12 24H80M66 12l14 12-14 12" fill="none" stroke="#8E8E93" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div class="card" style="width:620px"><p class="small">Three checks, done by code</p>
+<p style="font-size:28px;margin-top:14px">E-mail asks to change bank details?</p>
+<p style="font-size:28px;margin-top:8px">Duplicate, unknown payer or short payment?</p>
+<p style="font-size:28px;margin-top:8px">Model not sure enough?</p></div>
+<svg class="arrow" viewBox="0 0 96 48" width="96" height="48" aria-label="then"><path d="M12 24H80M66 12l14 12-14 12" fill="none" stroke="#8E8E93" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div style="display:flex;flex-direction:column;gap:20px;width:400px">
+<p class="pill ok" style="font-size:28px;padding:18px 28px">All clear: booked automatically</p>
+<p class="pill warn" style="font-size:28px;padding:18px 28px">Any yes: sent to a person</p></div>
+</div>
+<div class="spacer"></div>
+<div class="grid2">
+<div><p class="mid blue">7 of 7</p><p class="cap">bank-detail change e-mails sent to a person on the final exam, by every gated system.</p></div>
+<div><p class="mid blue">0%</p><p class="cap">wrong automatic bookings for every fine-tuned model, Laya and Opus on the final exam.</p></div>
+</div>
+<aside>The guardrail reads every e-mail near the payment, not just the three shown to the model. We found that the hard way: the first version missed a fraud e-mail that was fourth in line.</aside>
+</section>

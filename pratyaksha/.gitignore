@@ -1,0 +1,17 @@
+# never commit
+.venv/
+.env
+*.env
+__pycache__/
+*.pyc
+.DS_Store
+# rebuilt by one command (python -m pratyaksha.world.generate --out data/wwi_in)
+data/
+# trained models: too large for git; attached to the GitHub Release as models.zip
+models/
+*.safetensors
+*.bin
+# runs: keep the recorded results, skip smoke tests and the raw API cache
+runs/*_macsmoke/
+runs/*_check/
+runs/opus_cache.jsonl
